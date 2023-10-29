@@ -1,0 +1,8 @@
+databaseChangeLog:
+    - include:
+        file: 001-add-users.sql
+        relativeToChangelogFile: true
+
+    - include:
+        file: 002-add-transactions.sql
+        relativeToChangelogFile: true
